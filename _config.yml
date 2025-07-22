@@ -1,3 +1,28 @@
-theme: jekyll-theme-minimal
-title: Osvaldo Ruiz
-description: Software Developer • Python Enthusiast • Tech Educator
+title: Osvaldo Ruiz - Data Analyst
+email: oruiz.code@gmail.com
+description: >-
+  Data Analyst with expertise in Python, SQL, and statistical analysis.
+  Passionate about turning data into actionable insights.
+
+baseurl: ""
+url: "https://ruizosvaldo.github.io/ruizosvaldo"
+
+github_username: ruizosvaldo
+linkedin_username: https://www.linkedin.com/in/osvaldoruiz/
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation
+navigation:
+  - title: MLB Player Hit Predictor
+    url: /
+  - title: Organic Integrity Database Analysis
+    url: /projects/
+  - title: About
+    url: /about/
+  - title: Resume
+    url: /resume/
