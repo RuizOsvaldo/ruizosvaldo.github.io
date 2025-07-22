@@ -5,13 +5,14 @@ title: Home
 
 # Welcome to My Portfolio
 
-I'm a data analyst passionate about extracting insights from complex datasets. I specialize in Python, SQL, and statistical analysis, with experience in sports analytics and organic food industry data.
+I’m passionate about uncovering insights through data and building tools that drive smarter decisions.
+Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
 
 ## Featured Projects
 
-### ⚾ Baseball Analytics Dashboard
-Interactive Streamlit application analyzing player performance using pybaseball data.
-[View Project](your-streamlit-link) | [View Code](github-repo-link)
+### ⚾ Major League Baseball Player Hit Probability Model
+A Streamlit application that analyzes player performance using PyBaseball data to predict the top three players most likely to record a hit in each MLB game.
+[View Project](your-streamlit-link) | [View Code](https://github.com/RuizOsvaldo/mlb_prop_predictor)
 
 ### 🥬 Organic Food Market Analysis  
 Comprehensive analysis of organic integrity database to identify market trends.
