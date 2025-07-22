@@ -6,10 +6,10 @@ permalink: /about/
 
 # About Me
 
-I'm a data analyst with a passion for transforming raw data into actionable business insights. My experience spans sports analytics and food industry analysis, where I've developed skills in statistical modeling, data visualization, and interactive dashboard creation.
+I am an aspiring Data Analyst with expertise in Python, SQL, and statistical analysis. Passionate about turning data into actionable insights.
 
 ## Technical Skills
-- **Programming:** Python, SQL, R
+- **Programming:** Python, SQL, R, Java, HTML, CSS
 - **Data Analysis:** pandas, numpy, scipy, statsmodels  
 - **Visualization:** matplotlib, seaborn, plotly, Tableau
 - **Web Applications:** Streamlit, basic HTML/CSS
@@ -22,7 +22,7 @@ I'm a data analyst with a passion for transforming raw data into actionable busi
 - Interactive Dashboard Development
 
 ## Education
-[Your education details]
+Bachelors of Science in Information Systems from Arizona State University, Fall 24'
 
 ## Contact
 - Email: your.email@example.com
