@@ -16,9 +16,10 @@ I'm an aspiring data analyst with a strong passion for turning raw data into mea
 - **Tools:** Jupyter, Git, Excel
 
 ## Education
-Bachelors of Science in Information Systems from Arizona State University, Fall 24'
+**Bachelor of Science in Information Systems**  
+*Arizona State University, May 2024*
 
 ## Contact
 - Email: oruiz.code@gmail.com
-- LinkedIn: [LinkedIn](linkedin-url)](https://www.linkedin.com/in/osvaldoruiz/)
-- GitHub: [[GitHub](github-url)](https://github.com/RuizOsvaldo)
+- LinkedIn: [LinkedIn(https://www.linkedin.com/in/osvaldoruiz/)]
+- GitHub: [GitHub(https://github.com/RuizOsvaldo)]
