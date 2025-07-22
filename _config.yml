@@ -1,4 +1,4 @@
-title: Osvaldo Ruiz - Aspiring Data Analyst
+title: Osvaldo Ruiz
 email: oruiz.code@gmail.com
 description: >-
         Aspiring Data Analyst looking to use my skills in transforming data into actionable items.
@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://ruizosvaldo.github.io"
 
 github_username: ruizosvaldo
-linkedin_username: linkedin.com/in/osvaldoruiz/
+linkedin_username: linkedin.com/in/osvaldoruiz
 
 # Build settings
 markdown: kramdown
