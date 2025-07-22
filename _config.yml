@@ -13,10 +13,7 @@ github_username: ruizosvaldo
 linkedin_username: https://www.linkedin.com/in/osvaldoruiz/
 
 # Build settings
-markdown: kramdown
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
 
 # Navigation
 navigation:
