@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+## About Me
 
-I am an aspiring Data Analyst with expertise in Python, SQL, and statistical analysis. Passionate about turning data into actionable insights.
+I'm an aspiring data analyst with a strong passion for turning raw data into meaningful insights. I have experience working with tools like Python, SQL, Excel, and Tableau, and I'm continually expanding my skills in data visualization, statistical analysis, and predictive modeling. I enjoy solving real-world problems through data and am focused on building a career where I can support decision-making with clear, data-driven strategies. I’m actively seeking opportunities to apply my knowledge, grow within the field, and contribute to impactful analytical projects.
 
 ## Technical Skills
 - **Programming:** Python, SQL, R, Java
