@@ -1,7 +1,4 @@
-# _config.yml
-theme: jekyll-theme-minimal
-title: Osvaldo Ruiz
-description: Data Analyst • Tech Educator
+## Hello, Welcome to my page!
 
 <!--
 **RuizOsvaldo/ruizosvaldo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
