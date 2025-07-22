@@ -21,5 +21,5 @@ I'm an aspiring data analyst with a strong passion for turning raw data into mea
 
 ## Contact
 - Email: oruiz.code@gmail.com
-- LinkedIn: [LinkedIn(https://www.linkedin.com/in/osvaldoruiz/)]
-- GitHub: [GitHub(https://github.com/RuizOsvaldo)]
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/osvaldoruiz/)
+- GitHub: [GitHub](https://github.com/RuizOsvaldo)
