@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://ruizosvaldo.github.io"
 
 github_username: ruizosvaldo
-linkedin_username: linkedin.com/in/osvaldoruiz
+linkedin_username: osvaldoruiz
 
 # Build settings
 markdown: kramdown
