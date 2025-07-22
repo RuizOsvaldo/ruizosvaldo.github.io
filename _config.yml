@@ -20,11 +20,13 @@ plugins:
 
 # Navigation
 navigation:
-  - title: MLB Player Hit Predictor
+  - title: Home
     url: /
-  - title: Organic Integrity Database Analysis
+  - title: Projects
     url: /projects/
   - title: About
     url: /about/
+  - title: Resume
+    url: /resume/
   - title: Resume
     url: /resume/
