@@ -12,7 +12,7 @@ linkedin_username: https://www.linkedin.com/in/osvaldoruiz/
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
