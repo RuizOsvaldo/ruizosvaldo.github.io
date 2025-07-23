@@ -2,7 +2,7 @@
 layout: home
 title: Home
 ---
-![headshot](headshot.jpg)
+![headshot](headshot.jpeg)
 # Welcome to My Portfolio
 
 I’m passionate about uncovering insights through data and building tools that drive smarter decisions.
