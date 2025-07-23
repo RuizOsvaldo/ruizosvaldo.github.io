@@ -4,6 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-## Download my resume:
-
-[Osvaldo Ruiz Resume](Osvaldo20%Ruiz20%Resune.pdf)
+## [Download My Resume](Osvaldo20%Ruiz20%Resune.pdf)
