@@ -2,11 +2,16 @@
 layout: home
 title: Home
 ---
-![headshot](headshot.jpg)
-# Welcome to My Portfolio
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="headshot.jpg" alt="Headshot" width="150" style="border-radius: 50%;">
+  <div>
+    # Welcome to My Portfolio
 
-I’m passionate about uncovering insights through data and building tools that drive smarter decisions.
-Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
+    I’m passionate about uncovering insights through data and building tools that drive smarter decisions.  
+    Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
+  </div>
+</div>
+
 
 ## Featured Projects
 
