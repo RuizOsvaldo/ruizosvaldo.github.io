@@ -6,8 +6,6 @@ title: Home
   <img src="headshot.jpg" alt="Headshot" width="150">
   <div>
     <h1>Welcome to My Portfolio</h1>
-  </div>
-  <div>
     I’m passionate about uncovering insights through data and building tools that drive smarter decisions.  
     Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
   </div>
