@@ -4,8 +4,8 @@ title: Home
 ---
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="headshot.jpg" alt="Headshot" width="150">
-  <div>
-    <h2>Welcome to My Portfolio</h2>
+  <div style="text-align: left;">
+    <h2 style="text-align: left;">Welcome to My Portfolio</h2>
     I’m passionate about uncovering insights through data and building tools that drive smarter decisions.  
     Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
   </div>
