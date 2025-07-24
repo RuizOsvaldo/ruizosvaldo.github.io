@@ -5,4 +5,4 @@ permalink: /resume/
 ---
 
 ![resume](/Osvaldo%20Ruiz%20Resume%20Image.jpg)  
-# [Download My Resume](/Osvaldo%20Ruiz%20Resume.pdf){:download="Osvaldo-Ruiz-Resume.pdf"}
+# [Download My Resume](/Osvaldo%20Ruiz%20Resume.pdf){:download="Osvaldo%20Ruiz%20Resume.pdf"}
