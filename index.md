@@ -25,6 +25,7 @@ Interactive dashboard using machine learning to identify key drivers of customer
 ### Sales Insights Dashboard
 Dynamic sales performance dashboard with regional filters, category breakdowns, and monthly trend analysis using Plotly and Streamlit.
 [View Project]() | [View Code](https://github.com/RuizOsvaldo/sales_insights_dashboards)
+
 ---
 
 *Explore my work and feel free to reach out for collaboration opportunities.*
