@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-# My Data Analysis Projects
+# My Projects
 
 ## Baseball Performance Analytics
 **Technologies:** Python, pandas, matplotlib, Streamlit, SQL<br>
