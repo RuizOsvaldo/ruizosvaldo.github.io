@@ -7,8 +7,8 @@ permalink: /projects/
 # My Data Analysis Projects
 
 ## Baseball Performance Analytics
-**Technologies:** Python, pandas, matplotlib, Streamlit, SQL
-**Description:** Built an interactive dashboard analyzing MLB player statistics using sabermetrics. 
+**Technologies:** Python, pandas, matplotlib, Streamlit, SQL<br>
+**Description:** Built an interactive dashboard analyzing MLB player statistics using sabermetrics.
 
 **Key Insights:**
 - Analysizes player perfomances using sabermetrics
@@ -20,7 +20,7 @@ permalink: /projects/
 ---
 
 ## Customer Churn Analysis
-**Technologies:** Python, pandas, scikit-learn, seaborn, Streamlit
+**Technologies:** Python, pandas, scikit-learn, seaborn, Streamlit<br>
 **Description:** Built a machine learning dashboard to identify key factors influencing customer churn in a telecom dataset. Included performance metrics and feature importance visualization.
 
 **Key Insights:**
@@ -33,7 +33,7 @@ permalink: /projects/
 ---
 
 ## Sales Insights Dashboard
-**Technologies:** Python, pandas, plotly, Streamlit
+**Technologies:** Python, pandas, plotly, Streamlit<br>
 **Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
 
 **Key Insights:**
