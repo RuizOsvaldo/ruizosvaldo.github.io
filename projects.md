@@ -43,12 +43,14 @@ permalink: /projects/
 
 [Live Demo](oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboards)
 
-## 
+---
 
 ## Skills Demonstrated
--**Data Cleaning & Processing:** pandas, numpy, handling missing data, categorical encoding
--**Statistical Analysis & Machine Learning:** Random Forests, model evaluation (classification reports, confusion matrices), train/test split
--**Visualization:** matplotlib, seaborn, plotly (bar charts, line charts, feature importance)
--**Web Applications:** Streamlit dashboards with sidebar filtering, expandable sections, and interactive KPIs
--**Databases:** SQL, data extraction, datetime transformations
--**Business Intelligence:** KPI development, customer segmentation, churn risk analysis, revenue/profit breakdowns, and sales trend forecasting
+- **Data Cleaning & Processing:** pandas, numpy, handling missing data, categorical encoding
+- **Statistical Analysis & Machine Learning:** Random Forests, model evaluation (classification reports, confusion matrices), train/test split
+- **Visualization:** matplotlib, seaborn, plotly (bar charts, line charts, feature importance)
+- **Web Applications:** Streamlit dashboards with sidebar filtering, expandable sections, and interactive KPIs
+- **Databases:** SQL, data extraction, datetime transformations
+- **Business Intelligence:** KPI development, customer segmentation, churn risk analysis, revenue/profit breakdowns, and sales trend forecasting
+
+---
