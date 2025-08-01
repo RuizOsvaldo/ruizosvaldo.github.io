@@ -10,7 +10,6 @@ title: Home
     Explore my projects, resume, and background to see how I’m turning curiosity into action—one dataset at a time.
   </div>
 </div>
----
 
 ## Featured Projects
 
