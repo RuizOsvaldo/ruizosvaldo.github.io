@@ -2,6 +2,7 @@
 layout: home
 title: Home
 ---
+
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="headshot.jpg" alt="Headshot" width="150">
   <div style="text-align: left;">
@@ -11,7 +12,9 @@ title: Home
   </div>
 </div>
 
-## Featured Projects
+---
+
+## **Featured Projects**
 
 ### **Major League Baseball Player Hit Probability Model - In Progress**
 A Streamlit application that analyzes player performance using PyBaseball data to predict the top three players most likely to record a hit in each MLB game.
