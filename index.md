@@ -13,7 +13,7 @@ title: Home
 
 ## Featured Projects
 
-### Major League Baseball Player Hit Probability Model
+### Major League Baseball Player Hit Probability Model - In Progress
 A Streamlit application that analyzes player performance using PyBaseball data to predict the top three players most likely to record a hit in each MLB game.
 [View Project](your-streamlit-link) | [View Code](https://github.com/RuizOsvaldo/mlb_prop_predictor)
 
