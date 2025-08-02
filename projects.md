@@ -28,7 +28,7 @@ permalink: /projects/
 - Displayed model performance with classification report and confusion matrix
 - Visualized top 10 features contributing to churn
 
-[Live Demo](oruiz-cca.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/customer_churn_dashboard.py)
+[Live Demo](oruiz-ccd.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/customer_churn_dashboard)
 
 ---
 
@@ -41,7 +41,7 @@ permalink: /projects/
 - Tracked monthly sales trends and seasonal patterns
 - Highlighted performance by product category
 
-[Live Demo](oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboards)
+[Live Demo](oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboard)
 
 ---
 
