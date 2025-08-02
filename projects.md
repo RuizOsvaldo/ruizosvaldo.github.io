@@ -15,7 +15,7 @@ permalink: /projects/
 - Predicts outcome based on differnt factors, such as opposing pitcher, and stadium
 - Uses a Machine Learning model to train future predictions and a database 
 
-[Live Demo](mlbprop.streamlit.app) | [GitHub](github-link)
+Coming Soon | [GitHub](github-link)
 
 ---
 
@@ -28,7 +28,7 @@ permalink: /projects/
 - Displayed model performance with classification report and confusion matrix
 - Visualized top 10 features contributing to churn
 
-[Live Demo](oruiz-ccd.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/customer_churn_dashboard)
+[Live Demo](https://oruiz-ccd.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/customer_churn_dashboard)
 
 ---
 
@@ -41,7 +41,7 @@ permalink: /projects/
 - Tracked monthly sales trends and seasonal patterns
 - Highlighted performance by product category
 
-[Live Demo](oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboard)
+[Live Demo](https://oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboard)
 
 ---
 
