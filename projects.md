@@ -45,10 +45,24 @@ Coming Soon | [GitHub](github-link)
 
 ---
 
+### US Housing Market Analysis Dashboard
+**Technologies:** Tableau, US Census Data, Interactive Dashboards<br>
+**Description:** Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
+
+**Key Insights:**
+- Housing prices increased 1,670% from 1963-2016, averaging 5.4% annual appreciation
+- Regional housing inventory varies dramatically, creating supply-demand imbalances
+- The 2008 financial crisis disrupted trends but full recovery occurred by 2012-2013
+- National housing data provides comprehensive view while regional data focuses on inventory levels
+
+[Live Demo](https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes)
+
+---
+
 ## Skills Demonstrated
 - **Data Cleaning & Processing:** pandas, numpy, handling missing data, categorical encoding
 - **Statistical Analysis & Machine Learning:** Random Forests, model evaluation (classification reports, confusion matrices), train/test split
-- **Visualization:** matplotlib, seaborn, plotly (bar charts, line charts, feature importance)
+- **Visualization:** matplotlib, seaborn, plotly (bar charts, line charts, feature importance), Tableau
 - **Web Applications:** Streamlit dashboards with sidebar filtering, expandable sections, and interactive KPIs
 - **Databases:** SQL, data extraction, datetime transformations
 - **Business Intelligence:** KPI development, customer segmentation, churn risk analysis, revenue/profit breakdowns, and sales trend forecasting
