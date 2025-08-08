@@ -6,16 +6,16 @@ permalink: /projects/
 
 # My Projects
 
-## Baseball Performance Analytics
-**Technologies:** Python, pandas, matplotlib, Streamlit, SQL<br>
-**Description:** Built an interactive dashboard analyzing MLB player statistics using sabermetrics.
+## Sales Insights Dashboard
+**Technologies:** Python, pandas, plotly, Streamlit<br>
+**Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
 
 **Key Insights:**
-- Analysizes player perfomances using sabermetrics
-- Predicts outcome based on differnt factors, such as opposing pitcher, and stadium
-- Uses a Machine Learning model to train future predictions and a database 
+- Visualized total sales and profits across regions
+- Tracked monthly sales trends and seasonal patterns
+- Highlighted performance by product category
 
-Coming Soon | [GitHub](github-link)
+[Live Demo](https://oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboard)
 
 ---
 
@@ -32,19 +32,6 @@ Coming Soon | [GitHub](github-link)
 
 ---
 
-## Sales Insights Dashboard
-**Technologies:** Python, pandas, plotly, Streamlit<br>
-**Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
-
-**Key Insights:**
-- Visualized total sales and profits across regions
-- Tracked monthly sales trends and seasonal patterns
-- Highlighted performance by product category
-
-[Live Demo](https://oruiz-sid.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/sales_insights_dashboard)
-
----
-
 ### US Housing Market Analysis Dashboard
 **Technologies:** Tableau, US Census Data, Interactive Dashboards<br>
 **Description:** Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
@@ -56,6 +43,19 @@ Coming Soon | [GitHub](github-link)
 - National housing data provides comprehensive view while regional data focuses on inventory levels
 
 [Live Demo](https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes)
+
+---
+
+## Baseball Performance Analytics
+**Technologies:** Python, pandas, matplotlib, Streamlit, SQL<br>
+**Description:** Built an interactive dashboard analyzing MLB player statistics using sabermetrics.
+
+**Key Insights:**
+- Analysizes player perfomances using sabermetrics
+- Predicts outcome based on differnt factors, such as opposing pitcher, and stadium
+- Uses a Machine Learning model to train future predictions and a database 
+
+Coming Soon | [GitHub](github-link)
 
 ---
 
