@@ -4,11 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# My Projects
-
----
-
-
 ## **Economic Indicators Analytics Dashboard**
 **Technologies:** Python, pandas, SQLAlchemy, fredapi, PostgreSQL, Google Sheets API, Streamlit
 
