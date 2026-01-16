@@ -6,6 +6,23 @@ permalink: /projects/
 
 # My Projects
 
+---
+
+### **Economic Indicators Analytics Dashboard**
+**Technologies:** Python, pandas, SQLAlchemy, fredapi, PostgreSQL, Google Sheets API, Streamlit
+
+**Description:** Built an automated ETL pipeline and analytics dashboard to track macroeconomic indicators using Federal Reserve Economic Data (FRED) API. Features database storage, automated data refresh, and Google Sheets integration for stakeholder reporting.
+
+**Key Insights:**
+* Automated data extraction from Federal Reserve API for GDP, unemployment, inflation, and interest rate indicators
+* Designed normalized PostgreSQL database schema for efficient storage and querying
+* Integrated Google Cloud APIs for automated reporting to Google Sheets
+* Visualized economic trends with interactive time-series analysis
+
+[Live Demo](https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing) | [GitHub](https://github.com/RuizOsvaldo/economic-dashboard)
+
+---
+
 ## Sales Insights Dashboard
 **Technologies:** Python, pandas, plotly, Streamlit<br>
 **Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
