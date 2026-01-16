@@ -8,7 +8,7 @@ permalink: /projects/
 
 ---
 
-### **Economic Indicators Analytics Dashboard**
+## **Economic Indicators Analytics Dashboard**
 **Technologies:** Python, pandas, SQLAlchemy, fredapi, PostgreSQL, Google Sheets API, Streamlit
 
 **Description:** Built an automated ETL pipeline and analytics dashboard to track macroeconomic indicators using Federal Reserve Economic Data (FRED) API. Features database storage, automated data refresh, and Google Sheets integration for stakeholder reporting.
@@ -23,7 +23,7 @@ permalink: /projects/
 
 ---
 
-## Sales Insights Dashboard
+## **Sales Insights Dashboard**
 **Technologies:** Python, pandas, plotly, Streamlit<br>
 **Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
 
@@ -36,7 +36,7 @@ permalink: /projects/
 
 ---
 
-## Customer Churn Analysis
+## **Customer Churn Analysis**
 **Technologies:** Python, pandas, scikit-learn, seaborn, Streamlit<br>
 **Description:** Built a machine learning dashboard to identify key factors influencing customer churn in a telecom dataset. Included performance metrics and feature importance visualization.
 
@@ -49,7 +49,7 @@ permalink: /projects/
 
 ---
 
-### US Housing Market Analysis Dashboard
+### **US Housing Market Analysis Dashboard**
 **Technologies:** Tableau, US Census Data, Interactive Dashboards<br>
 **Description:** Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
 
@@ -63,7 +63,7 @@ permalink: /projects/
 
 ---
 
-## Baseball Performance Analytics
+## **Baseball Performance Analytics**
 **Technologies:** Python, pandas, matplotlib, Streamlit, SQL<br>
 **Description:** Built an interactive dashboard analyzing MLB player statistics using sabermetrics.
 
