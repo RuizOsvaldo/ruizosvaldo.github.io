@@ -8,6 +8,7 @@ permalink: /projects/
 
 ---
 
+
 ## **Economic Indicators Analytics Dashboard**
 **Technologies:** Python, pandas, SQLAlchemy, fredapi, PostgreSQL, Google Sheets API, Streamlit
 
