@@ -14,7 +14,7 @@ I'm a data analyst with a strong passion for turning raw data into meaningful in
 
 ## Education
 **Bachelor of Science in Information Systems**  
-*Arizona State University, May 2024*
+*Arizona State University, December 2024*
 
 ## Contact
 - Email: oruiz.code@gmail.com
