@@ -17,8 +17,7 @@ title: Home
 ## **Featured Projects**
 
 ### **Economic Dashboard**
-Economic analytics dashboard built with Python (fredapi, pandas, SQLAlchemy), featuring automated data extraction from Federal Reserve APIs, PostgreSQL database storage, and Google Sheets integration for stakeholder reporting on macroeconomic indicators.
-
+Economic analytics dashboard built with Python (fredapi, pandas, SQLAlchemy), featuring automated data extraction from Federal Reserve APIs, PostgreSQL database storage, and Google Sheets integration for stakeholder reporting on macroeconomic indicators.<br>
 [View Project](https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing) | [View Code](https://github.com/RuizOsvaldo/economic-dashboard)
 
 ### **Sales Insights Dashboard**
