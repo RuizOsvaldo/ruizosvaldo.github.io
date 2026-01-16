@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ## **Economic Indicators Analytics Dashboard**
-**Technologies:** Python, pandas, SQLAlchemy, fredapi, PostgreSQL, Google Sheets API, Streamlit
+**Technologies:** Python, pandas, SQL, fredapi, PostgreSQL, Google Sheets API
 
 **Description:** Built an automated ETL pipeline and analytics dashboard to track macroeconomic indicators using Federal Reserve Economic Data (FRED) API. Features database storage, automated data refresh, and Google Sheets integration for stakeholder reporting.
 
