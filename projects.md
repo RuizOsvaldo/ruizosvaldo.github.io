@@ -12,6 +12,7 @@ permalink: /projects/
 **Key Insights:**
 * Automated data extraction from Federal Reserve API for GDP, unemployment, inflation, and interest rate indicators
 * Designed normalized PostgreSQL database schema for efficient storage and querying
+* Wrote SQL queries for data aggregation, trend analysis, and historical comparisons
 * Integrated Google Cloud APIs for automated reporting to Google Sheets
 * Visualized economic trends with interactive time-series analysis
 
