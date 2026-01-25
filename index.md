@@ -16,7 +16,7 @@ title: Home
 
 ## **Featured Projects**
 
-## **Google Analytics E-Commerce Dashboard**
+### **Google Analytics E-Commerce Dashboard**
 
 Interactive BI dashboard analyzing Google Merchandise Store performance using BigQuery SQL and Google Sheets Connected Sheets, featuring dynamic pivot tables and real-time filtering across marketing channels, devices, and geographic segments. 
 [View Project](https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing) | [View Code](https://github.com/RuizOsvaldo/google-analytics-dashboard)
