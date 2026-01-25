@@ -16,6 +16,11 @@ title: Home
 
 ## **Featured Projects**
 
+## **Google Analytics E-Commerce Dashboard**
+
+Interactive BI dashboard analyzing Google Merchandise Store performance using BigQuery SQL and Google Sheets Connected Sheets, featuring dynamic pivot tables and real-time filtering across marketing channels, devices, and geographic segments. 
+[View Project](https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing) | [View Code](https://github.com/RuizOsvaldo/google-analytics-dashboard)
+
 ### **Economic Dashboard**
 Economic analytics dashboard built with Python (fredapi, pandas, SQLAlchemy), featuring automated data extraction from Federal Reserve APIs, PostgreSQL database storage, and Google Sheets integration for stakeholder reporting on macroeconomic indicators.<br>
 [View Project](https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing) | [View Code](https://github.com/RuizOsvaldo/economic-dashboard)

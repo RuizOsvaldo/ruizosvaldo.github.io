@@ -4,6 +4,20 @@ title: My Projects
 permalink: /projects/
 ---
 
+## **Google Analytics E-Commerce Dashboard**
+**Technologies:** BigQuery SQL, Google Sheets Connected Sheets, Pivot Tables, Interactive Slicers, Data Visualization
+
+**Description:** Built self-service analytics dashboard analyzing Google Analytics sample dataset (903,653 sessions, $1.54M revenue, Aug 2016 - Aug 2017). Engineered SQL views with advanced aggregations to enable multi-dimensional analysis of e-commerce performance across marketing channels, device categories, and geographic markets.
+**Key Insights:**
+* Designed BigQuery SQL views with UNNEST operations and aggregation functions to analyze 903K sessions across marketing channels, device types, and geographic markets
+* Built interactive dashboard with 4 pivot tables and 6 slicers enabling real-time filtering and cross-dimensional performance analysis
+* Identified mobile optimization opportunity: desktop generates 95.6% of revenue ($1.47M) while mobile drives 23% of traffic but only 3.2% revenue, representing significant conversion improvement potential
+* Discovered referral channel drives 42% of revenue ($651K) with highest average order value across all traffic sources
+* Analyzed geographic distribution showing United States accounts for 93.8% of revenue with opportunity for international expansion
+
+[Live Demo](https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing) | [GitHub](https://github.com/RuizOsvaldo/google-analytics-dashboard)
+---
+
 ## **Economic Indicators Analytics Dashboard**
 **Technologies:** Python, pandas, SQL, fredapi, PostgreSQL, Google Sheets API
 
@@ -69,7 +83,7 @@ permalink: /projects/
 - Predicts outcome based on differnt factors, such as opposing pitcher, and stadium
 - Uses a Machine Learning model to train future predictions and a database 
 
-Coming Soon | [GitHub](github-link)
+[Work in Progress]
 
 ---
 
