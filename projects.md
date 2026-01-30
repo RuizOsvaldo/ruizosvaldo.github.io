@@ -32,6 +32,8 @@ Key Insights:
 * Discovered referral channel drives 42% of revenue ($651K) with highest average order value across all traffic sources
 * Analyzed geographic distribution showing United States accounts for 93.8% of revenue with opportunity for international expansion
 
+![Dashboard](/google.png)
+
 [Live Demo](https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing) | [GitHub](https://github.com/RuizOsvaldo/google-analytics-dashboard)
 
 ---
@@ -47,6 +49,8 @@ Key Insights:
 * Wrote SQL queries for data aggregation, trend analysis, and historical comparisons
 * Integrated Google Cloud APIs for automated reporting to Google Sheets
 * Visualized economic trends with interactive time-series analysis
+
+![Dashboard](/economic.png)
 
 [Live Demo](https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing) | [GitHub](https://github.com/RuizOsvaldo/economic-dashboard)
 
@@ -87,6 +91,8 @@ Key Insights:
 - Regional housing inventory varies dramatically, creating supply-demand imbalances
 - The 2008 financial crisis disrupted trends but full recovery occurred by 2012-2013
 - National housing data provides comprehensive view while regional data focuses on inventory levels
+
+![Dashboard](/tableau.png)
 
 [Live Demo](https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes)
 
