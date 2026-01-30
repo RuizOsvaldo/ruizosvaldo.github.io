@@ -18,6 +18,7 @@ Key Insights:
 
 ![Dashboard](/BA-Dashboard.png)
 **Project code to this dashboard will not be shared due to data sensitivity**<br>
+
 ---
 
 ## **Google Analytics E-Commerce Dashboard**
@@ -32,6 +33,7 @@ Key Insights:
 * Analyzed geographic distribution showing United States accounts for 93.8% of revenue with opportunity for international expansion
 
 [Live Demo](https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing) | [GitHub](https://github.com/RuizOsvaldo/google-analytics-dashboard)
+
 ---
 
 ## **Economic Indicators Analytics Dashboard**
