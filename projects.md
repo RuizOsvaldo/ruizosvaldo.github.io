@@ -17,7 +17,7 @@ Key Insights:
 * Quantified community impact showing 1,362+ people served across Border Angels' shelter coordination and humanitarian programs
 
 ![Dashboard](/BA-Dashboard.png)
-**Project code to this dashboar will not be shared due to data sensitivity**
+**Project code to this dashboard will not be shared due to data sensitivity**<br>
 ---
 
 ## **Google Analytics E-Commerce Dashboard**
