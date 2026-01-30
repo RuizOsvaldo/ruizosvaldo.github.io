@@ -10,7 +10,7 @@ I'm a data analyst with a strong passion for turning raw data into meaningful in
 ## Technical Skills
 - **Programming:** Python (Pandas, NumPy, Scikit-learn, MatplotLib), SQL, Java, JavaScript, HTML/CSS
 - **Data Analysis:** Advanced Excel (PivotTables, Macros, Charts), Power BI, Tableau, Streamlit, Matplotlib, Seaborn
-- **Tools and Databases:** Django, Git, GitHub, Jira, AWS, Databricks, Docker, VMware, Jupyter Notebooks, PostreSQL
+- **Tools and Databases:** Django, Git, GitHub, Jira, AWS, Databricks, Docker, VMware, Jupyter Notebooks, PostgreSQL, MySQL, BigQuery, Snowflake, SQL Server, MongoDB, Oracle
 
 ## Education
 **Bachelor of Science in Information Systems**  
