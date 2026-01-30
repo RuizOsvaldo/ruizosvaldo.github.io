@@ -4,6 +4,22 @@ title: My Projects
 permalink: /projects/
 ---
 
+## **Border Angels EOY Programs Dashboard**
+**Technologies:** Python, Pandas, VS Code, Google Cloud Console, Google Sheets API, Data Visualization
+
+**Description:** Built organization-wide reporting dashboard consolidating annual program data for humanitarian nonprofit serving migrants along the U.S.-Mexico border. Coordinated cross-departmental data collection and engineered Python ETL pipeline to automate monthly reporting, replacing manual processes with real-time KPI tracking.
+Key Insights:
+
+* Developed Python ETL pipeline using Pandas to extract, clean, and transform raw program data from multiple departments into standardized reporting format
+* Automated data loading through Google Cloud Console integration, enabling monthly refresh cycles without manual intervention
+8 Consolidated organizational KPIs revealing 27+ community events coordinated with 84+ unique volunteers throughout the year
+* Tracked $84,405+ in program expenditures across all initiatives, providing leadership with financial visibility for budget planning
+* Quantified community impact showing 1,362+ people served across Border Angels' shelter coordination and humanitarian programs
+
+![Dashboard](/BA-Dashboard.png)
+
+---
+
 ## **Google Analytics E-Commerce Dashboard**
 **Technologies:** BigQuery SQL, Google Sheets Connected Sheets, Pivot Tables, Interactive Slicers, Data Visualization
 
