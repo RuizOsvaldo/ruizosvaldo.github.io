@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-I'm a data analyst with a strong passion for turning raw data into meaningful insights. I have experience working with tools like Python, SQL, Excel, Power BI and Tableau, and I'm continually expanding my skills in data visualization, statistical analysis, and predictive modeling. I enjoy solving real-world problems through data and am focused on building a career where I can support decision-making with clear, data-driven strategies. I’m actively seeking opportunities to apply my knowledge, grow within the field, and contribute to impactful analytical projects.
+Data Analyst with 9+ years of leadership experience leveraging data to improve operations and business performance, fueled with a strong passion for turning raw data into meaningful insights. I have experience working with tools like Python, SQL, Excel, Power BI and Tableau, and I'm continually expanding my skills in data visualization, statistical analysis, and predictive modeling. I enjoy solving real-world problems through data and am focused on building a career where I can support decision-making with clear, data-driven strategies. I’m actively seeking opportunities to apply my knowledge, grow within the field, and contribute to impactful analytical projects.
 
 ## Technical Skills
 - **Programming:** Python (Pandas, NumPy, Scikit-learn, MatplotLib), SQL, Java, JavaScript, HTML/CSS
