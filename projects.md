@@ -56,6 +56,22 @@ Key Insights:
 
 ---
 
+### **US Housing Market Analysis Dashboard**
+**Technologies:** Tableau, US Census Data, Interactive Dashboards<br>
+**Description:** Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
+
+**Key Insights:**
+- Housing prices increased 1,670% from 1963-2016, averaging 5.4% annual appreciation
+- Regional housing inventory varies dramatically, creating supply-demand imbalances
+- The 2008 financial crisis disrupted trends but full recovery occurred by 2012-2013
+- National housing data provides comprehensive view while regional data focuses on inventory levels
+
+![Dashboard](/tableau.png)
+
+[Live Demo](https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes)
+
+---
+
 ## **Sales Insights Dashboard**
 **Technologies:** Python, pandas, plotly, Streamlit<br>
 **Description:** Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
@@ -79,22 +95,6 @@ Key Insights:
 - Visualized top 10 features contributing to churn
 
 [Live Demo](https://oruiz-ccd.streamlit.app) | [GitHub](https://github.com/RuizOsvaldo/customer_churn_dashboard)
-
----
-
-### **US Housing Market Analysis Dashboard**
-**Technologies:** Tableau, US Census Data, Interactive Dashboards<br>
-**Description:** Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
-
-**Key Insights:**
-- Housing prices increased 1,670% from 1963-2016, averaging 5.4% annual appreciation
-- Regional housing inventory varies dramatically, creating supply-demand imbalances
-- The 2008 financial crisis disrupted trends but full recovery occurred by 2012-2013
-- National housing data provides comprehensive view while regional data focuses on inventory levels
-
-![Dashboard](/tableau.png)
-
-[Live Demo](https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes)
 
 ---
 
