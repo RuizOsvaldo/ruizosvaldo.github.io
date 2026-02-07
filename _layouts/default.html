@@ -18,16 +18,16 @@
                 extend: {
                     colors: {
                         primary: {
-                            50: '#eff6ff',
-                            100: '#dbeafe',
-                            200: '#bfdbfe',
-                            300: '#93c5fd',
-                            400: '#60a5fa',
-                            500: '#3b82f6',
-                            600: '#2563eb',
-                            700: '#1d4ed8',
-                            800: '#1e40af',
-                            900: '#1e3a8a',
+                            50: '#fef2f2',
+                            100: '#fee2e2',
+                            200: '#fecaca',
+                            300: '#fca5a5',
+                            400: '#f87171',
+                            500: '#ef4444',
+                            600: '#991b1b',
+                            700: '#7f1d1d',
+                            800: '#991b1b',
+                            900: '#7f1d1d',
                         }
                     },
                     fontFamily: {
@@ -74,8 +74,6 @@
                         class="nav-link {% if page.url contains 'projects' %}active{% endif %}">Projects</a>
                     <a href="{{ '/about/' | relative_url }}"
                         class="nav-link {% if page.url contains 'about' %}active{% endif %}">About</a>
-                    <a href="{{ '/resume/' | relative_url }}"
-                        class="nav-link {% if page.url contains 'resume' %}active{% endif %}">Resume</a>
 
                     <!-- Dark Mode Toggle -->
                     <button id="theme-toggle"
@@ -112,8 +110,6 @@
                     class="block nav-link {% if page.url contains 'projects' %}active{% endif %}">Projects</a>
                 <a href="{{ '/about/' | relative_url }}"
                     class="block nav-link {% if page.url contains 'about' %}active{% endif %}">About</a>
-                <a href="{{ '/resume/' | relative_url }}"
-                    class="block nav-link {% if page.url contains 'resume' %}active{% endif %}">Resume</a>
             </div>
         </div>
     </nav>
@@ -140,13 +136,10 @@
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="{{ '/projects/' | relative_url }}"
-                                class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 text-sm transition-colors">Projects</a>
+                                class="text-gray-600 dark:text-gray-400 hover:text-primary-700 dark:hover:text-primary-400 text-sm transition-colors">Projects</a>
                         </li>
                         <li><a href="{{ '/about/' | relative_url }}"
-                                class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 text-sm transition-colors">About</a>
-                        </li>
-                        <li><a href="{{ '/resume/' | relative_url }}"
-                                class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 text-sm transition-colors">Resume</a>
+                                class="text-gray-600 dark:text-gray-400 hover:text-primary-700 dark:hover:text-primary-400 text-sm transition-colors">About</a>
                         </li>
                     </ul>
                 </div>
