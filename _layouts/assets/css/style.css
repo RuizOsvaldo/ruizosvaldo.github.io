@@ -1,0 +1,235 @@
+/* Custom Styles for Portfolio */
+
+/* Navigation Links */
+.nav-link {
+    @apply text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium;
+}
+
+.nav-link.active {
+    @apply text-primary-600 dark:text-primary-400;
+}
+
+/* Social Links */
+.social-link {
+    @apply text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-all hover:scale-110;
+}
+
+/* Card Components */
+.card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-700;
+}
+
+.card-hover {
+    @apply hover:-translate-y-1 hover:shadow-2xl;
+}
+
+/* Project Cards */
+.project-card {
+    @apply card card-hover;
+}
+
+.project-card-image {
+    @apply w-full h-48 object-cover;
+}
+
+.project-card-content {
+    @apply p-6;
+}
+
+.project-card-title {
+    @apply text-xl font-bold text-gray-900 dark:text-white mb-2 hover:text-primary-600 dark:hover:text-primary-400 transition-colors;
+}
+
+.project-card-description {
+    @apply text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3;
+}
+
+.project-card-tags {
+    @apply flex flex-wrap gap-2 mb-4;
+}
+
+.project-tag {
+    @apply px-3 py-1 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-xs font-medium;
+}
+
+.project-card-links {
+    @apply flex gap-3;
+}
+
+.project-link {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors;
+}
+
+.project-link-secondary {
+    @apply inline-flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 hover:border-primary-600 dark:hover:border-primary-400 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg text-sm font-medium transition-colors;
+}
+
+/* Skill Pills */
+.skill-pill {
+    @apply px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium border border-gray-200 dark:border-gray-700;
+}
+
+/* Section Headers */
+.section-header {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4;
+}
+
+.section-subheader {
+    @apply text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-3;
+}
+
+/* Hero Section */
+.hero-title {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight;
+}
+
+.hero-subtitle {
+    @apply text-xl md:text-2xl text-gray-600 dark:text-gray-400 mt-4;
+}
+
+.hero-cta {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg hover:shadow-xl;
+}
+
+/* Content Containers */
+.content-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+.prose-custom {
+    @apply prose prose-lg dark:prose-invert max-w-none;
+    @apply prose-headings:text-gray-900 dark:prose-headings:text-white;
+    @apply prose-p:text-gray-700 dark:prose-p:text-gray-300;
+    @apply prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-gray-900 dark:prose-strong:text-white;
+    @apply prose-code:text-primary-600 dark:prose-code:text-primary-400;
+    @apply prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800;
+}
+
+/* Gradient Text */
+.gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-delay-100 {
+    animation-delay: 100ms;
+}
+
+.animate-delay-200 {
+    animation-delay: 200ms;
+}
+
+.animate-delay-300 {
+    animation-delay: 300ms;
+}
+
+/* Grid Layouts */
+.project-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.feature-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Stats/Metrics */
+.stat-card {
+    @apply card p-6 text-center;
+}
+
+.stat-number {
+    @apply text-4xl font-bold text-primary-600 dark:text-primary-400;
+}
+
+.stat-label {
+    @apply text-sm text-gray-600 dark:text-gray-400 mt-2;
+}
+
+/* Image Styles */
+.profile-image {
+    @apply rounded-full border-4 border-white dark:border-gray-800 shadow-xl;
+}
+
+.project-screenshot {
+    @apply rounded-lg shadow-lg border border-gray-200 dark:border-gray-700;
+}
+
+/* Buttons */
+.btn-primary {
+    @apply px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-all shadow-md hover:shadow-lg;
+}
+
+.btn-secondary {
+    @apply px-6 py-3 border-2 border-gray-300 dark:border-gray-600 hover:border-primary-600 dark:hover:border-primary-400 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg font-medium transition-all;
+}
+
+/* Badges */
+.badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+}
+
+.badge-primary {
+    @apply badge bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300;
+}
+
+.badge-success {
+    @apply badge bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300;
+}
+
+.badge-warning {
+    @apply badge bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300;
+}
+
+/* Dividers */
+.section-divider {
+    @apply my-12 border-t border-gray-200 dark:border-gray-800;
+}
+
+/* Loading Skeleton */
+.skeleton {
+    @apply animate-pulse bg-gray-200 dark:bg-gray-700 rounded;
+}
+
+/* Focus States */
+*:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-white dark:ring-offset-gray-900;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-gray-500;
+}

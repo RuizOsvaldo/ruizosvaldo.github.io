@@ -1,0 +1,345 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section
+    class="bg-gradient-to-br from-primary-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 border-b border-gray-200 dark:border-gray-800">
+    <div class="content-container py-20">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <!-- Profile Image -->
+            <div class="flex-shrink-0 animate-fade-in-up">
+                <img src="{{ '/headshot.jpg' | relative_url }}" alt="{{ site.title }}"
+                    class="profile-image w-48 h-48 md:w-64 md:h-64 object-cover">
+            </div>
+
+            <!-- Hero Content -->
+            <div class="flex-1 text-center md:text-left animate-fade-in-up animate-delay-100">
+                <h1 class="hero-title mb-4">
+                    Welcome to My <span class="gradient-text">Portfolio</span>
+                </h1>
+                <p class="hero-subtitle max-w-2xl">
+                    I'm passionate about uncovering insights through data and building tools that drive smarter
+                    decisions.
+                    Explore my projects, resume, and background to see how I'm turning curiosity into action, one
+                    dataset at a time.
+                </p>
+                <div class="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
+                    <a href="{{ '/projects/' | relative_url }}" class="hero-cta">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
+                            </path>
+                        </svg>
+                        View Projects
+                    </a>
+                    <a href="{{ '/resume/' | relative_url }}" class="btn-secondary">
+                        <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                            </path>
+                        </svg>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="content-container">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 -mt-10">
+        <div class="stat-card animate-fade-in-up">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card animate-fade-in-up animate-delay-100">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card animate-fade-in-up animate-delay-200">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Technologies</div>
+        </div>
+        <div class="stat-card animate-fade-in-up animate-delay-300">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Passion for Data</div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section class="content-container mt-20">
+    <div class="text-center mb-12">
+        <h2 class="section-header">Featured Projects</h2>
+        <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            A selection of my recent work showcasing data analysis, visualization, and automation
+        </p>
+    </div>
+
+    <div class="project-grid">
+        <!-- Border Angels Dashboard -->
+        <div class="project-card">
+            <img src="{{ '/BA-Dashboard.png' | relative_url }}" alt="Border Angels Dashboard" class="project-card-image"
+                onerror="this.style.display='none'">
+            <div class="project-card-content">
+                <h3 class="project-card-title">Border Angels EOY Dashboard</h3>
+                <p class="project-card-description">
+                    End-to-end reporting solution consolidating annual metrics with Python ETL pipeline,
+                    automating monthly reporting for a humanitarian nonprofit.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Pandas</span>
+                    <span class="project-tag">Google Sheets API</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="{{ '/projects/' | relative_url }}" class="project-link">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Analytics Dashboard -->
+        <div class="project-card">
+            <img src="{{ '/google.png' | relative_url }}" alt="Google Analytics Dashboard" class="project-card-image"
+                onerror="this.style.display='none'">
+            <div class="project-card-content">
+                <h3 class="project-card-title">Google Analytics E-Commerce Dashboard</h3>
+                <p class="project-card-description">
+                    Interactive BI dashboard analyzing 903K sessions and $1.54M revenue using BigQuery SQL
+                    and Google Sheets Connected Sheets.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">BigQuery</span>
+                    <span class="project-tag">SQL</span>
+                    <span class="project-tag">Google Sheets</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing"
+                        target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/RuizOsvaldo/google-analytics-dashboard" target="_blank"
+                        class="project-link-secondary">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Economic Dashboard -->
+        <div class="project-card">
+            <img src="{{ '/economic.png' | relative_url }}" alt="Economic Dashboard" class="project-card-image"
+                onerror="this.style.display='none'">
+            <div class="project-card-content">
+                <h3 class="project-card-title">Economic Indicators Dashboard</h3>
+                <p class="project-card-description">
+                    Automated ETL pipeline tracking macroeconomic indicators from Federal Reserve API
+                    with PostgreSQL storage.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">PostgreSQL</span>
+                    <span class="project-tag">API Integration</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing"
+                        target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/RuizOsvaldo/economic-dashboard" target="_blank"
+                        class="project-link-secondary">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- US Housing Market -->
+        <div class="project-card">
+            <img src="{{ '/tableau.png' | relative_url }}" alt="US Housing Market Dashboard" class="project-card-image"
+                onerror="this.style.display='none'">
+            <div class="project-card-content">
+                <h3 class="project-card-title">US Housing Market Analysis</h3>
+                <p class="project-card-description">
+                    Comprehensive Tableau dashboard analyzing 53 years of US Census housing data
+                    with interactive regional filtering.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">Tableau</span>
+                    <span class="project-tag">US Census Data</span>
+                    <span class="project-tag">Data Visualization</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes"
+                        target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sales Insights Dashboard -->
+        <div class="project-card">
+            <div class="project-card-content">
+                <h3 class="project-card-title">Sales Insights Dashboard</h3>
+                <p class="project-card-description">
+                    Dynamic sales performance dashboard with regional filters, category breakdowns,
+                    and monthly trend analysis using Plotly and Streamlit.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Streamlit</span>
+                    <span class="project-tag">Plotly</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="https://oruiz-sid.streamlit.app" target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/RuizOsvaldo/sales_insights_dashboard" target="_blank"
+                        class="project-link-secondary">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Churn Analysis -->
+        <div class="project-card">
+            <div class="project-card-content">
+                <h3 class="project-card-title">Customer Churn Analysis</h3>
+                <p class="project-card-description">
+                    Machine learning dashboard identifying key drivers of customer churn with
+                    interactive visualizations and model performance metrics.
+                </p>
+                <div class="project-card-tags">
+                    <span class="project-tag">Machine Learning</span>
+                    <span class="project-tag">Scikit-learn</span>
+                    <span class="project-tag">Streamlit</span>
+                </div>
+                <div class="project-card-links">
+                    <a href="https://oruiz-ccd.streamlit.app" target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/RuizOsvaldo/customer_churn_dashboard" target="_blank"
+                        class="project-link-secondary">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- View All Projects Link -->
+    <div class="text-center mt-12">
+        <a href="{{ '/projects/' | relative_url }}" class="btn-primary inline-flex items-center gap-2">
+            View All Projects
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3">
+                </path>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="bg-gray-100 dark:bg-gray-800/50 py-20 mt-20">
+    <div class="content-container">
+        <div class="text-center mb-12">
+            <h2 class="section-header">Technical Skills</h2>
+            <p class="text-gray-600 dark:text-gray-400">
+                Technologies and tools I work with
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Data Analysis -->
+            <div class="card p-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                        </path>
+                    </svg>
+                    <h3 class="text-xl font-semibold">Data Analysis</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-pill">Python</span>
+                    <span class="skill-pill">Pandas</span>
+                    <span class="skill-pill">NumPy</span>
+                    <span class="skill-pill">SQL</span>
+                    <span class="skill-pill">Excel</span>
+                </div>
+            </div>
+
+            <!-- Visualization -->
+            <div class="card p-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold">Visualization</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-pill">Tableau</span>
+                    <span class="skill-pill">Power BI</span>
+                    <span class="skill-pill">Matplotlib</span>
+                    <span class="skill-pill">Plotly</span>
+                    <span class="skill-pill">Seaborn</span>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="card p-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4">
+                        </path>
+                    </svg>
+                    <h3 class="text-xl font-semibold">Databases</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-pill">PostgreSQL</span>
+                    <span class="skill-pill">MySQL</span>
+                    <span class="skill-pill">BigQuery</span>
+                    <span class="skill-pill">Snowflake</span>
+                    <span class="skill-pill">MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="content-container py-20">
+    <div class="card p-12 text-center bg-gradient-to-r from-primary-600 to-purple-600 text-white border-0">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Work Together</h2>
+        <p class="text-xl mb-8 opacity-90">
+            Interested in collaborating? Let's connect and discuss how data can drive your success.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center">
+            <a href="mailto:{{ site.email }}"
+                class="bg-white text-primary-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-medium transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                    </path>
+                </svg>
+                Email Me
+            </a>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"
+                class="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-3 rounded-lg font-medium transition-all border border-white/20 inline-flex items-center gap-2">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+                Connect on LinkedIn
+            </a>
+        </div>
+    </div>
+</section>
