@@ -2,11 +2,11 @@
 
 /* Navigation Links */
 .nav-link {
-    @apply text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium;
+    @apply text-gray-300 hover:text-white transition-colors font-medium;
 }
 
 .nav-link.active {
-    @apply text-primary-600 dark:text-primary-400;
+    @apply text-primary-400;
 }
 
 /* Social Links */
