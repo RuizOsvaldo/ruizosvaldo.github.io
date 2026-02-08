@@ -1,13 +1,11 @@
 ---
 layout: page
 title: About Me
-description: Data Analyst passionate about turning raw data into meaningful insights
 permalink: /about/
 ---
-
+<h1 class="text-5xl md:text-6xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">About Me</span></h1>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
     <div class="md:col-span-2">
-        <h1 class="text-5xl md:text-6xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">About Me</span></h1>
         <p class="text-lg mb-6">
             Data Analyst with 9+ years of leadership experience leveraging data to improve operations and business performance, fueled with a strong passion for turning raw data into meaningful insights. I have experience working with tools like Python, SQL, Excel, Power BI and Tableau, and I'm continually expanding my skills in data visualization, statistical analysis, and predictive modeling.
         </p>
@@ -42,10 +40,9 @@ permalink: /about/
 </div>
 
 ## Technical Skills
-
+<h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Technical Skills</span></h2>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
     <div class="card p-6">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Technical Skills</span></h2>
         <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
             <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
@@ -114,10 +111,9 @@ permalink: /about/
 </div>
 
 ## Education
-
+<h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Education</span></h2>
 <div class="card p-6 mb-12">
     <div class="flex items-start gap-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Education</span></h2>
         <div class="flex-shrink-0">
             <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center">
                 <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,9 +132,8 @@ permalink: /about/
 </div>
 
 ## Contact
-
+<h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Contact</span></h2>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Contact</span></h2>
     <a href="mailto:oruiz.code@gmail.com" class="card p-6 hover:-translate-y-1 transition-all">
         <div class="flex items-center gap-3">
             <div class="w-10 h-10 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center">
