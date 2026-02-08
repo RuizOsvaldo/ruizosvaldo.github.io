@@ -120,13 +120,13 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-neutral-800 dark:bg-neutral-900 border-t border-neutral-600 dark:border-neutral-700 mt-20">
+    <footer class="bg-neutral-800 border-t border-neutral-600 mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- About Section -->
                 <div>
                     <h3 class="text-lg font-semibold mb-4 text-white">{{ site.title }}</h3>
-                    <p class="text-gray-400 dark:text-gray-400 text-sm">
+                    <p class="text-gray-400 text-sm">
                         {{ site.description }}
                     </p>
                 </div>
@@ -136,10 +136,10 @@
                     <h3 class="text-lg font-semibold mb-4 text-white">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="{{ '/projects/' | relative_url }}"
-                                class="text-gray-400 dark:text-gray-400 hover:text-primary-400 dark:hover:text-primary-400 text-sm transition-colors">Projects</a>
+                                class="text-gray-400 hover:text-primary-400 text-sm transition-colors">Projects</a>
                         </li>
                         <li><a href="{{ '/about/' | relative_url }}"
-                                class="text-gray-400 dark:text-gray-400 hover:text-primary-400 dark:hover:text-primary-400 text-sm transition-colors">About</a>
+                                class="text-gray-400 hover:text-primary-400 text-sm transition-colors">About</a>
                         </li>
                     </ul>
                 </div>
@@ -171,8 +171,8 @@
                 </div>
             </div>
 
-            <div class="mt-8 pt-8 border-t border-neutral-600 dark:border-neutral-700">
-                <p class="text-center text-gray-400 dark:text-gray-400 text-sm">
+            <div class="mt-8 pt-8 border-t border-neutral-600">
+                <p class="text-center text-gray-400 text-sm">
                     &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.
                 </p>
             </div>
