@@ -12,21 +12,20 @@ layout: default
                     class="profile-image w-64 h-auto md:w-80 md:h-auto object-cover">
             </div>
 
-            <!-- Hero Content - title at top, summary middle, buttons bottom -->
-            <div
-                class="flex-1 max-w-2xl flex flex-col justify-between text-center animate-fade-in-up animate-delay-100">
+            <!-- Hero Content - centered vertically next to photo -->
+            <div class="flex-1 max-w-2xl flex flex-col items-center text-center animate-fade-in-up animate-delay-100">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
                     Welcome to My <span
                         class="bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">Portfolio</span>
                 </h1>
-
+                <br>
                 <p class="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
                     I'm passionate about uncovering insights through data and building tools that drive smarter
                     decisions.
                     Explore my projects, resume, and background to see how I'm turning curiosity into action, one
                     dataset at a time.
                 </p>
-
+                <br>
                 <div class="flex flex-wrap gap-4 justify-center">
                     <a href="{{ '/projects/' | relative_url }}"
                         class="inline-flex items-center gap-2 px-8 py-4 bg-primary-700 hover:bg-primary-800 text-white rounded-lg font-semibold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl">
@@ -115,7 +114,7 @@ layout: default
 <!-- Featured Projects Section -->
 <section class="content-container mt-20">
     <div class="text-center mb-12">
-        <h2 class="section-header">Featured Projects</h2>
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Featured Projects</h2>
         <p class="text-gray-400 max-w-2xl mx-auto">
             A selection of my recent work showcasing data analysis, visualization, and automation
         </p>
@@ -189,9 +188,9 @@ layout: default
     <!-- View All Projects Link -->
     <div class="text-center mt-12">
         <a href="{{ '/projects/' | relative_url }}"
-            class="inline-flex items-center gap-2 text-primary-700 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-300 font-semibold text-lg transition-colors">
+            class="inline-flex items-center gap-3 text-primary-700 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-300 font-semibold text-3xl transition-colors">
             View All Projects
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3">
                 </path>
             </svg>
@@ -203,7 +202,7 @@ layout: default
 <section class="bg-neutral-800 py-20 mt-20">
     <div class="content-container">
         <div class="text-center mb-12">
-            <h2 class="section-header">Technical Skills</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Technical Skills</h2>
             <p class="text-gray-400">
                 Technologies and tools I work with
             </p>

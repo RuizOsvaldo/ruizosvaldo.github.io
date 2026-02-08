@@ -187,14 +187,14 @@
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
 
-        // Check for saved theme preference or default to system preference
-        const currentTheme = localStorage.getItem('theme') ||
-            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        // Check for saved theme preference or default to dark
+        const currentTheme = localStorage.getItem('theme') || 'dark';
 
         if (currentTheme === 'dark') {
             html.classList.add('dark');
             lightIcon.classList.remove('hidden');
         } else {
+            html.classList.remove('dark');
             darkIcon.classList.remove('hidden');
         }
 
