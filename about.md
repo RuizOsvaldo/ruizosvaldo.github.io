@@ -4,6 +4,7 @@ title: About Me
 permalink: /about/
 ---
 <h1 class="text-5xl md:text-6xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">About Me</span></h1>
+<br>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
     <div class="md:col-span-2">
         <p class="text-lg mb-6">
@@ -21,7 +22,7 @@ permalink: /about/
                 <svg class="w-5 h-5 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                 </svg>
-                9+ Years Leadership Skills
+                9+ Years of Leadership Experience
             </li>
             <li class="flex items-center gap-2">
                 <svg class="w-5 h-5 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
@@ -39,7 +40,6 @@ permalink: /about/
     </div>
 </div>
 
-## Technical Skills
 <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Technical Skills</span></h2>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
     <div class="card p-6">
@@ -110,7 +110,7 @@ permalink: /about/
     </div>
 </div>
 
-## Education
+
 <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Education</span></h2>
 <div class="card p-6 mb-12">
     <div class="flex items-start gap-4">
@@ -131,7 +131,7 @@ permalink: /about/
     </div>
 </div>
 
-## Contact
+
 <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><span class="bg-gradient-to-b from-primary-500 to-white bg-clip-text text-transparent">Contact</span></h2>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     <a href="mailto:oruiz.code@gmail.com" class="card p-6 hover:-translate-y-1 transition-all">
