@@ -5,7 +5,7 @@ layout: default
 <div class="content-container py-12">
     <!-- Page Header -->
     <div class="mb-12">
-        <h1 class="section-header">{{ page.title }}</h1>
+        {% unless page.title == "About Me" %}<h1 class="section-header">{{ page.title }}</h1>{% endunless %}
         {% if page.description %}
         <p class="text-xl text-gray-600 dark:text-gray-400 mt-4">{{ page.description }}</p>
         {% endif %}
