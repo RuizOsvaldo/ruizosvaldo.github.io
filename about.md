@@ -50,11 +50,11 @@ permalink: /about/
             Programming
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">Python (Pandas, NumPy, Scikit-learn, Matplotlib)</span>
-            <span class="skill-pill">SQL</span>
-            <span class="skill-pill">Java</span>
-            <span class="skill-pill">JavaScript</span>
-            <span class="skill-pill">HTML/CSS</span>
+            <span class="skill-pill">[Python (Pandas, NumPy, Scikit-learn, Matplotlib), </span>
+            <span class="skill-pill">SQL, </span>
+            <span class="skill-pill">Java, </span>
+            <span class="skill-pill">JavaScript, </span>
+            <span class="skill-pill">HTML/CSS]</span>
         </div>
     </div>
 
@@ -66,11 +66,11 @@ permalink: /about/
             Data Analysis
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">Advanced Excel</span>
-            <span class="skill-pill">Power BI</span>
-            <span class="skill-pill">Tableau</span>
-            <span class="skill-pill">Streamlit</span>
-            <span class="skill-pill">Seaborn</span>
+            <span class="skill-pill">Advanced Excel | </span>
+            <span class="skill-pill">Power BI | </span>
+            <span class="skill-pill">Tableau | </span>
+            <span class="skill-pill">Streamlit | </span>
+            <span class="skill-pill">Seaborn | </span>
         </div>
     </div>
 
@@ -79,15 +79,15 @@ permalink: /about/
             <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
             </svg>
-            Tools and Databases
+            Tools
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">Django</span>
-            <span class="skill-pill">Git/GitHub</span>
-            <span class="skill-pill">Jira</span>
-            <span class="skill-pill">AWS</span>
-            <span class="skill-pill">Databricks</span>
-            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">Django | </span>
+            <span class="skill-pill">Git/GitHub | </span>
+            <span class="skill-pill">Jira | </span>
+            <span class="skill-pill">AWS | </span>
+            <span class="skill-pill">Databricks | </span>
+            <span class="skill-pill">Docker | </span>
         </div>
     </div>
 
@@ -99,12 +99,12 @@ permalink: /about/
             Databases
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">PostgreSQL</span>
-            <span class="skill-pill">MySQL</span>
-            <span class="skill-pill">BigQuery</span>
-            <span class="skill-pill">Snowflake</span>
-            <span class="skill-pill">SQL Server</span>
-            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">PostgreSQL,</span>
+            <span class="skill-pill">MySQL,</span>
+            <span class="skill-pill">BigQuery,</span>
+            <span class="skill-pill">Snowflake,</span>
+            <span class="skill-pill">SQL Server,</span>
+            <span class="skill-pill">MongoDB,</span>
             <span class="skill-pill">Oracle</span>
         </div>
     </div>
