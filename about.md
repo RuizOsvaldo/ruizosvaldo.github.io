@@ -66,11 +66,11 @@ permalink: /about/
             Data Analysis
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">Advanced Excel | </span>
-            <span class="skill-pill">Power BI | </span>
-            <span class="skill-pill">Tableau | </span>
-            <span class="skill-pill">Streamlit | </span>
-            <span class="skill-pill">Seaborn | </span>
+            <span class="skill-pill">Advanced Excel |</span>
+            <span class="skill-pill">Power BI |</span>
+            <span class="skill-pill">Tableau |</span>
+            <span class="skill-pill">Streamlit |</span>
+            <span class="skill-pill">Seaborn |</span>
         </div>
     </div>
 
@@ -82,12 +82,12 @@ permalink: /about/
             Tools
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">Django | </span>
-            <span class="skill-pill">Git/GitHub | </span>
-            <span class="skill-pill">Jira | </span>
-            <span class="skill-pill">AWS | </span>
-            <span class="skill-pill">Databricks | </span>
-            <span class="skill-pill">Docker | </span>
+            <span class="skill-pill">Django |</span>
+            <span class="skill-pill">Git/GitHub |</span>
+            <span class="skill-pill">Jira |</span>
+            <span class="skill-pill">AWS |</span>
+            <span class="skill-pill">Databricks |</span>
+            <span class="skill-pill">Docker |</span>
         </div>
     </div>
 
@@ -99,12 +99,12 @@ permalink: /about/
             Databases
         </h3>
         <div class="flex flex-wrap gap-2">
-            <span class="skill-pill">PostgreSQL,</span>
-            <span class="skill-pill">MySQL,</span>
-            <span class="skill-pill">BigQuery,</span>
-            <span class="skill-pill">Snowflake,</span>
-            <span class="skill-pill">SQL Server,</span>
-            <span class="skill-pill">MongoDB,</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">BigQuery</span>
+            <span class="skill-pill">Snowflake</span>
+            <span class="skill-pill">SQL Server</span>
+            <span class="skill-pill">MongoDB</span>
             <span class="skill-pill">Oracle</span>
         </div>
     </div>
