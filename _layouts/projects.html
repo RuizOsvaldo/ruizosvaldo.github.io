@@ -11,6 +11,61 @@ layout: default
         </h1>
     </div>
 
+    <!-- HR Attrition Dashboard -->
+    <div id="hr-attrition-dashboard" class="mb-20">
+        <a href="https://public.tableau.com/views/IBM_Attrition_17710459255670/HRAttritionAnalysis" target="_blank"
+            rel="noopener noreferrer"
+            class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
+            <img src="{{ '/images/tableau_hr.png' | relative_url }}" alt="HR Attrition Analysis Dashboard"
+                class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50"
+                onerror="this.style.display='none'">
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Dashboard</span>
+            </div>
+        </a>
+        <div class="text-center mt-8 px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">HR Attrition Analysis Dashboard</h2>
+            <div class="flex flex-wrap justify-center gap-2 mb-4">
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Tableau
+                    Public</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Data
+                    Visualization</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">HR
+                    Analytics</span>
+            </div>
+            <p class="text-gray-400 max-w-3xl mx-auto mb-4">
+                An interactive Tableau dashboard analyzing employee attrition patterns using IBM's HR Analytics dataset
+                (1,470 employees). The dashboard identifies key drivers of employee turnover to support data-driven
+                retention strategies.
+            </p>
+            <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
+                <p class="font-semibold text-white mb-2">Key Insights:</p>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Sales Representatives have the highest attrition rate at 40%, nearly 3x the company average</li>
+                    <li>Employees working overtime leave at significantly higher rates (30%) compared to non-overtime
+                        workers (10%)</li>
+                    <li>New hires (0-1 years tenure) represent the highest flight risk with 35% attrition</li>
+                    <li>Lower salary bands correlate with increased turnover across all departments</li>
+                </ul>
+            </div>
+            <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
+                <p class="font-semibold text-white mb-2">Technical Implementation:</p>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Built calculated fields for attrition rate, tenure buckets, salary bands, and satisfaction
+                        categories</li>
+                    <li>Designed interactive filters enabling analysis by department and job role</li>
+                    <li>Created KPI cards displaying total employees, attrition rate, average tenure, and average salary
+                    </li>
+                    <li>Developed heat maps, bar charts, and demographic breakdowns for multi-dimensional analysis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr class="border-neutral-700 mb-20">
+
     <!-- Border Angels EOY Programs Dashboard -->
     <div class="mb-20">
         <div class="rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8">
@@ -23,21 +78,32 @@ layout: default
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Python</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Pandas</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">VS Code</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Cloud Console</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Sheets API</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Data Visualization</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Cloud
+                    Console</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Sheets
+                    API</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Data
+                    Visualization</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built organization-wide reporting dashboard consolidating annual program data for humanitarian nonprofit serving migrants along the U.S.-Mexico border. Coordinated cross-departmental data collection and engineered Python ETL pipeline to automate monthly reporting, replacing manual processes with real-time KPI tracking.
+                Built organization-wide reporting dashboard consolidating annual program data for humanitarian nonprofit
+                serving migrants along the U.S.-Mexico border. Coordinated cross-departmental data collection and
+                engineered Python ETL pipeline to automate monthly reporting, replacing manual processes with real-time
+                KPI tracking.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
                 <ul class="list-disc list-inside space-y-1 text-sm">
-                    <li>Developed Python ETL pipeline using Pandas to extract, clean, and transform raw program data from multiple departments into standardized reporting format</li>
-                    <li>Automated data loading through Google Cloud Console integration, enabling monthly refresh cycles without manual intervention</li>
-                    <li>Consolidated organizational KPIs revealing 27+ community events coordinated with 84+ unique volunteers throughout the year</li>
-                    <li>Tracked $84,405+ in program expenditures across all initiatives, providing leadership with financial visibility for budget planning</li>
-                    <li>Quantified community impact showing 1,362+ people served across Border Angels' shelter coordination and humanitarian programs</li>
+                    <li>Developed Python ETL pipeline using Pandas to extract, clean, and transform raw program data
+                        from multiple departments into standardized reporting format</li>
+                    <li>Automated data loading through Google Cloud Console integration, enabling monthly refresh cycles
+                        without manual intervention</li>
+                    <li>Consolidated organizational KPIs revealing 27+ community events coordinated with 84+ unique
+                        volunteers throughout the year</li>
+                    <li>Tracked $84,405+ in program expenditures across all initiatives, providing leadership with
+                        financial visibility for budget planning</li>
+                    <li>Quantified community impact showing 1,362+ people served across Border Angels' shelter
+                        coordination and humanitarian programs</li>
                 </ul>
             </div>
             <p class="text-sm text-gray-500 italic">Project code will not be shared due to data sensitivity</p>
@@ -48,39 +114,59 @@ layout: default
 
     <!-- Google Analytics E-Commerce Dashboard -->
     <div class="mb-20">
-        <a href="https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
+        <a href="https://docs.google.com/spreadsheets/d/1a7nwZZNt5kNAkdBu2Ezm4Io1LKBuuTjDrpUF3jHWhvA/edit?usp=sharing"
+            target="_blank" rel="noopener noreferrer"
             class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/google.png' | relative_url }}" alt="Google Analytics E-Commerce Dashboard"
                 class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live Demo</span>
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Demo</span>
             </div>
         </a>
         <div class="text-center mt-8 px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Google Analytics E-Commerce Dashboard</h2>
             <div class="flex flex-wrap justify-center gap-2 mb-4">
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">BigQuery SQL</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Sheets</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Connected Sheets</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Pivot Tables</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Data Visualization</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">BigQuery
+                    SQL</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google
+                    Sheets</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Connected
+                    Sheets</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Pivot
+                    Tables</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Data
+                    Visualization</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built self-service analytics dashboard analyzing Google Analytics sample dataset (903,653 sessions, $1.54M revenue, Aug 2016 - Aug 2017). Engineered SQL views with advanced aggregations to enable multi-dimensional analysis of e-commerce performance across marketing channels, device categories, and geographic markets.
+                Built self-service analytics dashboard analyzing Google Analytics sample dataset (903,653 sessions,
+                $1.54M revenue, Aug 2016 - Aug 2017). Engineered SQL views with advanced aggregations to enable
+                multi-dimensional analysis of e-commerce performance across marketing channels, device categories, and
+                geographic markets.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
                 <ul class="list-disc list-inside space-y-1 text-sm">
-                    <li>Designed BigQuery SQL views with UNNEST operations and aggregation functions to analyze 903K sessions across marketing channels, device types, and geographic markets</li>
-                    <li>Built interactive dashboard with 4 pivot tables and 6 slicers enabling real-time filtering and cross-dimensional performance analysis</li>
-                    <li>Identified mobile optimization opportunity: desktop generates 95.6% of revenue ($1.47M) while mobile drives 23% of traffic but only 3.2% revenue</li>
-                    <li>Discovered referral channel drives 42% of revenue ($651K) with highest average order value across all traffic sources</li>
-                    <li>Analyzed geographic distribution showing United States accounts for 93.8% of revenue with opportunity for international expansion</li>
+                    <li>Designed BigQuery SQL views with UNNEST operations and aggregation functions to analyze 903K
+                        sessions across marketing channels, device types, and geographic markets</li>
+                    <li>Built interactive dashboard with 4 pivot tables and 6 slicers enabling real-time filtering and
+                        cross-dimensional performance analysis</li>
+                    <li>Identified mobile optimization opportunity: desktop generates 95.6% of revenue ($1.47M) while
+                        mobile drives 23% of traffic but only 3.2% revenue</li>
+                    <li>Discovered referral channel drives 42% of revenue ($651K) with highest average order value
+                        across all traffic sources</li>
+                    <li>Analyzed geographic distribution showing United States accounts for 93.8% of revenue with
+                        opportunity for international expansion</li>
                 </ul>
             </div>
-            <a href="https://github.com/RuizOsvaldo/google-analytics-dashboard" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/RuizOsvaldo/google-analytics-dashboard" target="_blank"
+                rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 px-5 py-2 border border-neutral-600 hover:border-primary-500 text-gray-300 hover:text-primary-400 rounded-lg text-sm font-medium transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
                 View Code
             </a>
         </div>
@@ -90,12 +176,15 @@ layout: default
 
     <!-- Economic Indicators Analytics Dashboard -->
     <div class="mb-20">
-        <a href="https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
+        <a href="https://docs.google.com/spreadsheets/d/1gdFmYrKiOba6NkbLmD7m4-hMJhArNtXMfkNYKQLs4_s/edit?usp=sharing"
+            target="_blank" rel="noopener noreferrer"
             class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/economic.png' | relative_url }}" alt="Economic Indicators Analytics Dashboard"
                 class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live Demo</span>
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Demo</span>
             </div>
         </a>
         <div class="text-center mt-8 px-4">
@@ -106,15 +195,19 @@ layout: default
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">SQL</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">FRED API</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">PostgreSQL</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Sheets API</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Google Sheets
+                    API</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built an automated ETL pipeline and analytics dashboard to track macroeconomic indicators using Federal Reserve Economic Data (FRED) API. Features database storage, automated data refresh, and Google Sheets integration for stakeholder reporting.
+                Built an automated ETL pipeline and analytics dashboard to track macroeconomic indicators using Federal
+                Reserve Economic Data (FRED) API. Features database storage, automated data refresh, and Google Sheets
+                integration for stakeholder reporting.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
                 <ul class="list-disc list-inside space-y-1 text-sm">
-                    <li>Automated data extraction from Federal Reserve API for GDP, unemployment, inflation, and interest rate indicators</li>
+                    <li>Automated data extraction from Federal Reserve API for GDP, unemployment, inflation, and
+                        interest rate indicators</li>
                     <li>Designed normalized PostgreSQL database schema for efficient storage and querying</li>
                     <li>Wrote SQL queries for data aggregation, trend analysis, and historical comparisons</li>
                     <li>Integrated Google Cloud APIs for automated reporting to Google Sheets</li>
@@ -123,7 +216,10 @@ layout: default
             </div>
             <a href="https://github.com/RuizOsvaldo/economic-dashboard" target="_blank" rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 px-5 py-2 border border-neutral-600 hover:border-primary-500 text-gray-300 hover:text-primary-400 rounded-lg text-sm font-medium transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
                 View Code
             </a>
         </div>
@@ -133,23 +229,30 @@ layout: default
 
     <!-- US Housing Market Analysis Dashboard -->
     <div class="mb-20">
-        <a href="https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes" target="_blank" rel="noopener noreferrer"
+        <a href="https://public.tableau.com/app/profile/osvaldo.ruiz3189/viz/U_S_HomeSales1963-2016_17543278409820/Dashboard?publish=yes"
+            target="_blank" rel="noopener noreferrer"
             class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/tableau.png' | relative_url }}" alt="US Housing Market Analysis Dashboard"
                 class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live Demo</span>
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Demo</span>
             </div>
         </a>
         <div class="text-center mt-8 px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">US Housing Market Analysis Dashboard</h2>
             <div class="flex flex-wrap justify-center gap-2 mb-4">
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Tableau</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">US Census Data</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Interactive Dashboards</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">US Census
+                    Data</span>
+                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Interactive
+                    Dashboards</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with interactive regional filtering, price trend analysis, and inventory insights. Features national price appreciation tracking, regional comparisons, and economic cycle visualization.
+                Built a comprehensive housing market dashboard analyzing 53 years of US Census data (1963-2016) with
+                interactive regional filtering, price trend analysis, and inventory insights. Features national price
+                appreciation tracking, regional comparisons, and economic cycle visualization.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
@@ -157,7 +260,8 @@ layout: default
                     <li>Housing prices increased 1,670% from 1963-2016, averaging 5.4% annual appreciation</li>
                     <li>Regional housing inventory varies dramatically, creating supply-demand imbalances</li>
                     <li>The 2008 financial crisis disrupted trends but full recovery occurred by 2012-2013</li>
-                    <li>National housing data provides comprehensive view while regional data focuses on inventory levels</li>
+                    <li>National housing data provides comprehensive view while regional data focuses on inventory
+                        levels</li>
                 </ul>
             </div>
         </div>
@@ -171,8 +275,10 @@ layout: default
             class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/sales_streamlit.png' | relative_url }}" alt="Sales Insights Dashboard"
                 class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live Demo</span>
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Demo</span>
             </div>
         </a>
         <div class="text-center mt-8 px-4">
@@ -184,7 +290,8 @@ layout: default
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Streamlit</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Developed an interactive dashboard for visualizing sales data by region, category, and time trends. Enabled dynamic filtering and key performance metrics.
+                Developed an interactive dashboard for visualizing sales data by region, category, and time trends.
+                Enabled dynamic filtering and key performance metrics.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
@@ -196,7 +303,10 @@ layout: default
             </div>
             <a href="https://github.com/RuizOsvaldo/sales_insights_dashboard" target="_blank" rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 px-5 py-2 border border-neutral-600 hover:border-primary-500 text-gray-300 hover:text-primary-400 rounded-lg text-sm font-medium transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
                 View Code
             </a>
         </div>
@@ -210,8 +320,10 @@ layout: default
             class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/churn_streamlit.png' | relative_url }}" alt="Customer Churn Analysis Dashboard"
                 class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live Demo</span>
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live
+                    Demo</span>
             </div>
         </a>
         <div class="text-center mt-8 px-4">
@@ -219,12 +331,14 @@ layout: default
             <div class="flex flex-wrap justify-center gap-2 mb-4">
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Python</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Pandas</span>
-                <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Scikit-learn</span>
+                <span
+                    class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Scikit-learn</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Seaborn</span>
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">Streamlit</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built a machine learning dashboard to identify key factors influencing customer churn in a telecom dataset. Included performance metrics and feature importance visualization.
+                Built a machine learning dashboard to identify key factors influencing customer churn in a telecom
+                dataset. Included performance metrics and feature importance visualization.
             </p>
             <div class="text-gray-400 max-w-3xl mx-auto text-left mb-6">
                 <p class="font-semibold text-white mb-2">Key Insights:</p>
@@ -236,7 +350,10 @@ layout: default
             </div>
             <a href="https://github.com/RuizOsvaldo/customer_churn_dashboard" target="_blank" rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 px-5 py-2 border border-neutral-600 hover:border-primary-500 text-gray-300 hover:text-primary-400 rounded-lg text-sm font-medium transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
                 View Code
             </a>
         </div>
@@ -256,10 +373,16 @@ layout: default
                 <span class="px-3 py-1 bg-neutral-700 text-gray-300 rounded-full text-xs font-medium">SQL</span>
             </div>
             <p class="text-gray-400 max-w-3xl mx-auto mb-4">
-                Built an interactive dashboard analyzing MLB player statistics using sabermetrics. Predicts outcomes based on different factors such as opposing pitcher and stadium. Uses a machine learning model to train future predictions with a tracking database.
+                Built an interactive dashboard analyzing MLB player statistics using sabermetrics. Predicts outcomes
+                based on different factors such as opposing pitcher and stadium. Uses a machine learning model to train
+                future predictions with a tracking database.
             </p>
-            <span class="inline-flex items-center gap-2 px-4 py-2 bg-neutral-700 text-gray-400 rounded-lg text-sm font-medium">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span
+                class="inline-flex items-center gap-2 px-4 py-2 bg-neutral-700 text-gray-400 rounded-lg text-sm font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
                 Work in Progress
             </span>
         </div>
