@@ -153,16 +153,24 @@ layout: default
             <script type='text/javascript'>
                 var divElement = document.getElementById('viz1771047403574');
                 var vizElement = divElement.getElementsByTagName('object')[0];
+                var cardElement = divElement.parentElement;
+
+                // Prevent Tableau's fixed-width object from expanding the placeholder beyond the card
+                divElement.style.width = '100%';
+                divElement.style.overflow = 'hidden';
 
                 function resizeViz() {
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = divElement.offsetWidth > 500
-                        ? (divElement.offsetWidth * 0.75) + 'px'
-                        : '2427px';
+                    var style = window.getComputedStyle(cardElement);
+                    var w = cardElement.clientWidth
+                        - parseFloat(style.paddingLeft)
+                        - parseFloat(style.paddingRight);
+                    vizElement.style.width = w + 'px';
+                    vizElement.style.height = w > 500 ? Math.round(w * 0.75) + 'px' : '2427px';
                 }
 
                 resizeViz();
-                new ResizeObserver(resizeViz).observe(divElement);
+                // Watch the card (not the viz div) — Tableau can't affect the card's width
+                new ResizeObserver(resizeViz).observe(cardElement);
 
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
