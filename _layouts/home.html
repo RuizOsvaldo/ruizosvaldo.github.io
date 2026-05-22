@@ -121,10 +121,10 @@ layout: default
         </p>
     </div>
 
-    <!-- Tableau Embed with Padding -->
-    <div class="px-6 sm:px-10 lg:px-16">
-        <div class="bg-white rounded-xl shadow-2xl p-6">
-            <div class='tableauPlaceholder' id='viz1771047403574' style='position: relative'>
+    <!-- Tableau Embed -->
+    <div id="tableau-outer" style="width:100%; padding: 0 1.5rem; box-sizing: border-box;">
+        <div id="tableau-card" style="background:#fff; border-radius:12px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.4); overflow:hidden;">
+            <div class='tableauPlaceholder' id='viz1771047403574' style='position:relative; width:100%; overflow:hidden;'>
                 <noscript>
                     <a href='#'>
                         <img alt='HR Attrition Analysis'
@@ -153,24 +153,22 @@ layout: default
             <script type='text/javascript'>
                 var divElement = document.getElementById('viz1771047403574');
                 var vizElement = divElement.getElementsByTagName('object')[0];
-                var cardElement = divElement.parentElement;
-
-                // Prevent Tableau's fixed-width object from expanding the placeholder beyond the card
-                divElement.style.width = '100%';
-                divElement.style.overflow = 'hidden';
+                var outerElement = document.getElementById('tableau-outer');
 
                 function resizeViz() {
-                    var style = window.getComputedStyle(cardElement);
-                    var w = cardElement.clientWidth
-                        - parseFloat(style.paddingLeft)
-                        - parseFloat(style.paddingRight);
+                    // Read from the outer wrapper — unaffected by Tableau's internal sizing
+                    var outerStyle = window.getComputedStyle(outerElement);
+                    var w = outerElement.clientWidth
+                        - parseFloat(outerStyle.paddingLeft)
+                        - parseFloat(outerStyle.paddingRight);
                     vizElement.style.width = w + 'px';
                     vizElement.style.height = w > 500 ? Math.round(w * 0.75) + 'px' : '2427px';
                 }
 
-                resizeViz();
-                // Watch the card (not the viz div) — Tableau can't affect the card's width
-                new ResizeObserver(resizeViz).observe(cardElement);
+                // Defer so layout is complete before we read widths
+                requestAnimationFrame(resizeViz);
+                window.addEventListener('resize', resizeViz);
+                new ResizeObserver(resizeViz).observe(outerElement);
 
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
