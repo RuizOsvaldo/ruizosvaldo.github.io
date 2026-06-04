@@ -124,10 +124,16 @@ layout: default
 
     <!-- Las Vegas Raiders: 2026 Scheme Fit Analysis -->
     <div id="raiders-scheme-fit" class="mb-20">
-        <div class="rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8">
+        <a href="https://raiders.streamlit.app/" target="_blank" rel="noopener noreferrer"
+            class="block rounded-xl overflow-hidden border border-neutral-700 mx-4 sm:mx-8 relative group">
             <img src="{{ '/images/RaidersAnalysis.png' | relative_url }}" alt="Las Vegas Raiders: 2026 Scheme Fit Analysis"
-                class="w-full h-auto object-cover">
-        </div>
+                class="w-full h-auto object-cover transition-all duration-300 group-hover:brightness-50"
+                onerror="this.style.display='none'">
+            <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-lg font-semibold bg-primary-700/80 px-5 py-2 rounded-lg">View Live App</span>
+            </div>
+        </a>
         <div class="text-center mt-8 px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Las Vegas Raiders: 2026 Scheme Fit Analysis</h2>
             <div class="flex flex-wrap justify-center gap-2 mb-4">
@@ -165,6 +171,14 @@ layout: default
                         CSVs to eliminate the need for runtime data ingestion</li>
                 </ul>
             </div>
+            <a href="https://raiders.streamlit.app/" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-5 py-2 border border-neutral-600 hover:border-primary-500 text-gray-300 hover:text-primary-400 rounded-lg text-sm font-medium transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                View Live App
+            </a>
         </div>
     </div>
 
