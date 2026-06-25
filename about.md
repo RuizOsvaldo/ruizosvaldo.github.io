@@ -70,7 +70,6 @@ permalink: /about/
             <span class="skill-pill">Power BI |</span>
             <span class="skill-pill">Tableau |</span>
             <span class="skill-pill">Streamlit |</span>
-            <span class="skill-pill">Seaborn |</span>
         </div>
     </div>
 
@@ -88,6 +87,7 @@ permalink: /about/
             <span class="skill-pill">AWS |</span>
             <span class="skill-pill">Databricks |</span>
             <span class="skill-pill">Docker |</span>
+            <span class="skill-pill">Netlify |</span>
         </div>
     </div>
 
@@ -103,6 +103,8 @@ permalink: /about/
             <span class="skill-pill">MySQL</span>
             <span class="skill-pill">BigQuery</span>
             <span class="skill-pill">Snowflake</span>
+            <span class="skill-pill">SQLite</span>
+            <span class="skill-pill">Supabase</span>
             <span class="skill-pill">SQL Server</span>
             <span class="skill-pill">MongoDB</span>
             <span class="skill-pill">Oracle</span>
