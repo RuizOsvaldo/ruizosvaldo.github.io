@@ -9,6 +9,10 @@
 # Update CURRENT ROLES when your employment changes.
 # Do not change the section headers -- the skill uses them to parse this file.
 
+## METADATA
+Last profile update: 2026-06-25
+Last resume generated: never
+
 ---
 
 ## IDENTITY
